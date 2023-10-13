@@ -32,7 +32,6 @@ if (a == 'feet') {
     );
 
 }
-
 else if(a=='kilo'){
 
     document.getElementById('inch-container').style.display = 'none'; 
@@ -61,6 +60,7 @@ else if(a=='kilo'){
 }
 else
 {
-    document.getElementById('Kilo-container').style.display = 'none';
+    
     document.getElementById('inch-container').style.display = 'none'; 
+    document.getElementById('Kilo-container').style.display = 'none';
 }
