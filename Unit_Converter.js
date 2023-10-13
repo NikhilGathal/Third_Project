@@ -3,12 +3,9 @@
 alert('Enter feet to convert from Feet To Inch and Enter kilo To convert from Kilo To Gram');
 
 
-var a = prompt('Enter Unit You want to convert ')
+var a = prompt('Enter feet or kilo')
 
-console.log(a)
-
-
-if (a == 'inch') {
+if (a == 'feet') {
 
     document.getElementById('Kilo-container').style.display = 'none';
 
@@ -36,7 +33,7 @@ if (a == 'inch') {
 
 }
 
-else if(a == 'kilo'){
+else if(a=='kilo'){
 
     document.getElementById('inch-container').style.display = 'none'; 
 
