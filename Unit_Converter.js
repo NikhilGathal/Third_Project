@@ -1,6 +1,6 @@
 
 
-alert('Enter feet to convert from Feet To inch and Enter kilo To convert from Kilo To Gram');
+alert('Enter feet to convert from Feet To Inch and Enter kilo To convert from Kilo To Gram');
 
 
 var a = prompt('Enter Unit You want to convert ')
@@ -61,5 +61,9 @@ else if(a == 'kilo'){
         kilo.value = g;
     }
     );
-
+}
+else
+{
+    document.getElementById('Kilo-container').style.display = 'none';
+    document.getElementById('inch-container').style.display = 'none'; 
 }
