@@ -1,6 +1,6 @@
 
 
-alert('Enter inch to convert Inch To Feet and Enter kilo To convert Kilo To Gram');
+alert('Enter feet to convert from Feet To inch and Enter kilo To convert from Kilo To Gram');
 
 
 var a = prompt('Enter Unit You want to convert ')
